@@ -14,3 +14,8 @@ const user: User = {
     name: "Cesar",
     age: 30
 };
+
+// Nullish coalesing operator (??)
+
+let input = '';
+const didProvideInput = input ?? false; // if input is null or undefined, then it will be false, otherwise it will be true
