@@ -26,7 +26,7 @@ function perfomJob(cb: (message: string) => void) {
 perfomJob(log);
 
 //.. 
-
+ 
 type UserTest = {
     name: string,
     age: number,
